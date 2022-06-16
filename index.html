@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANTI GIRAFFE GIRAFFE CLUB</title>
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- main css for template -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+<style type="text/css">
+    
+div.fixed {
+  position: fixed;
+  width: 50%;
+  bottom: 10px;
+  z-index: 1;
+} 
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="fixed">
+ <img src="pause.gif" id="icon" class="fixed">
+
+<audio id="mysound">
+        <source src="audio.mp3" type="audio/mp3">
+    </audio>
+</div>
+
+
+<script>
+        var mysound = document.getElementById("mysound");
+        var icon = document.getElementById("icon");
+ 
+        // Creating a function that will change
+        // pause to play and vice-versa
+        icon.onclick = function() {
+            if (mysound.paused) {
+ 
+                // If paused then play the
+                // music and change the image
+                mysound.play();
+                icon.src =
+"play.gif";
+            } else {
+ 
+                // If playing then pause the
+                // music and change the image
+                mysound.pause();
+                icon.src =
+"pause.png";
+            }
+        }
+    </script>
+
+
+    <!-- ===============>> Preloader start here <<================= -->
+    <div class="preloader">
+        <img src="assets/images/logo/preloader.png" alt="SuperHero">
+    </div>
+    <!-- ===============>> Preloader end here <<================= -->
+
+
+
+    <!-- ================> header section start here <================== -->
+    <header class="header"
+        <div class="container">
+            <nav class="navbar navbar-expand-xl">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo1.png"></a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler--icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" href="#collection">Story</a>
+                        <a class="nav-link" href="#roadmap">Roadmap</a>
+                        <a class="nav-link" href="#team">Team</a>
+                        <a class="nav-link" href="#faq">Faq</a>
+                    </div>
+                    <div class="social-btns">
+
+                        <a target="_blank" href="https://discord.com/invite/discordserver" class="default-btn">
+                            <span>Join Our Discord</span>
+                        </a>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <!-- ================> header section end here <================== -->
+
+
+    <!-- ================> Banner section start here <================== -->
+    <section id="home" class="banner" style="background-image: url(assets/images/banner/banner-bg.png);">
+        <div class="container">
+            <div class="banner__wrapper">
+                <div class="row g-5 align-items-center justify-content-center">
+                    <div class="col">
+                        <div class="banner__content text-center" data-aos="fade-up" data-aos-duration="2000">
+                            <h1 class="text--3d text-uppercase"> <span class="color--black">ANTI GIRAFFE GIRAFFE CLUB</span> </h1>
+
+                            <p>is an NFT collection of 5,000 Giraffes with over 350 hand drawn traits!</p>
+
+                            <ul class="social justify-content-center mb-5">
+                                <li class="social__item">
+                                    <a target="_blank" href="https://discord.gg/discordserver" class="social__link"><img src="assets/images/social/discord.png"
+                                            alt="Discord"></a>
+                                </li>
+                                <li class="social__item">
+                                    <a target="_blank" href="https://twitter.com/angelsclub" class="social__link"><img src="assets/images/social/twitter.png"
+                                            alt="Twitter"></a>
+                                </li>
+                               
+                                
+                                <li class="social__item">
+                                    <a target="_blank" href="https://www.youtube.com/channel/angels-club" class="social__link"><img src="assets/images/social/youtube.png"
+                                            alt="Youtube"></a>
+                                </li>
+                            </ul>
+                            <a target="_blank" href="https://opensea.io/collection/angels-club" class="default-btn">View On opensea</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="banner__apes">
+            <li class="banner__apes-item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
+                <img src="assets/images/banner/apes/01.png" alt="Ape Image">
+            </li>
+            <li class="banner__apes-item aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
+                <img src="assets/images/banner/apes/02.png" alt="Ape Image">
+            </li>
+            <li class="banner__apes-item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
+                <img src="assets/images/banner/apes/03.png" alt="Ape Image">
+            </li>
+            <li class="banner__apes-item aos-init aos-animate" data-aos="fade-left" data-aos-duration="1000">
+                <img src="assets/images/banner/apes/04.png" alt="Ape Image">
+            </li>
+        </ul>
+    </section>
+    <!-- ================> Banner section end here <================== -->
+<br><br>
+<div id="collection"></div>
+
+
+<!-- ================> Collection section start here <================== -->
+    <section class="collection padding-top padding-bottom" >
+        <div class="container">
+            <div class="section-header aos-animate aos-init" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-12">
+                    
+
+                    <h2 class="mx-0"> <span class="color--gradient-y d-block"> Our story </span>
+                                </h2>
+<br>
+                    <p>Our story started when all the different types of legendary apes from all around have decided to meet up and prepare to fight so they can invade the lands in the metaverse and colonize them to create a land of their own to engage in all the virtual fights, Now we are ready to start our battle to conquer the world and control it as our army of legendary invader apes get bigger and get stronger. stay tuned for our legendary battle soon! We are the apes that will decide the future of the virtual world together
+<br><br>
+
+When you acquire a legendary invader ape, you’re not simply getting a rare piece of art. You are joining the largest army of apes whose strength will increase over time. Your legendary invader apes can become your power in the virtual world.
+<br><br>
+The Legendary Invader Ape are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. Each holder is given ownership and commercial usage rights of their NFT.</p>
+                </div>
+            </div>
+            
+
+            </div>
+        </div>
+    </section>
+    <!-- ================> Collection section end here <================== -->
+
+
+
+
+
+    <!-- ================> Collection section start here <================== -->
+    <section class="collection padding-top padding-bottom" id="Partners">
+        <div class="container">
+            <div class="section-header aos-animate aos-init" data-aos="fade-up" data-aos-duration="1000">
+                <div class="section-header__content">
+                    <h2> <span class="color--gradient-y">The</span> </h2>
+                    <h2> <span class="color--gradient-y">Partners</span> </h2>
+                    <p>we will working with.</p>
+                </div>
+            </div>
+            <div class="collection__wrapper">
+                <div class="collection__thumb">
+                    <div class="swiper collection__thumb-slider-1 mb-3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="collection__thumb-item">
+                                    <img src="assets/images/collection/01.jpg" alt="NFT Image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="collection__thumb-item">
+                                    <img src="assets/images/collection/02.jpg" alt="NFT Image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="collection__thumb-item">
+                                    <img src="assets/images/collection/03.jpg" alt="NFT Image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="collection__thumb-item">
+                                    <img src="assets/images/collection/04.jpg" alt="NFT Image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="collection__thumb-item">
+                                    <img src="assets/images/collection/05.jpg" alt="NFT Image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="collection__thumb-item">
+                                    <img src="assets/images/collection/06.jpg" alt="NFT Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper collection__thumb-slider-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="collection__thumb-item">
+                                    <img src="assets/images/collection/07.jpg" alt="NFT Image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="collection__thumb-item">
+                                    <img src="assets/images/collection/08.jpg" alt="NFT Image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="collection__thumb-item">
+                                    <img src="assets/images/collection/09.jpg" alt="NFT Image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="collection__thumb-item">
+                                    <img src="assets/images/collection/10.jpg" alt="NFT Image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="collection__thumb-item">
+                                    <img src="assets/images/collection/11.jpg" alt="NFT Image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="collection__thumb-item">
+                                    <img src="assets/images/collection/12.jpg" alt="NFT Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5">
+                        <a target="_blank" href="https://opensea.io/collection/angels-club" class="default-btn">View On Opensea</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ================> Collection section end here <================== -->
+
+
+
+    <!-- ================> Mint section start here <================== -->
+    <section id="mint" class="mint padding-top padding-bottom bg--cover"
+        style="background-image: url(assets/images/mint/bg.jpg);">
+        <div class="container">
+            <div class="mint__wrapper">
+                <div class="row g-5 align-items-end">
+                    <div class="col-lg-6">
+                        <div class="mint__content aos-animate aos-init" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="row gy-5 gx-4 align-items-center">
+                                <div class="col-6">
+                                    <div class="mint__item">
+                                        <div class="mint__inner">
+                                            <h6 class="mint__sub-title">Project Size</h6>
+                                            <h2 class="mint__numbers">10,000</h2>
+                                            <h4 class="mint__name text-uppercase">NFT's</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mint__item">
+                                        <div class="mint__inner">
+                                            <h6 class="mint__sub-title">Mint Price</h6>
+                                            <h2 class="mint__numbers">0.08</h2>
+                                            <h4 class="mint__name text-uppercase">ETHEREUM</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mint__item">
+                                        <div class="mint__inner">
+                                            <h6 class="mint__sub-title">Mint Date</h6>
+                                            <h2 class="mint__numbers">15th*</h2>
+                                            <h4 class="mint__name text-uppercase">June</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+
+                                    <h6 class="mint__name text-uppercase">5% For private sales <br>  Mint 0.06 Now</h6>
+
+                                    <div class="text-start">
+                                        <a target="_blank" href="https://mint-angelsclub.com/" class="default-btn">Mint Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mint__thumb aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                            <img src="assets/images/mint/01.png" alt="Minting Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="monkey-icon">
+            <img src="assets/images/mint/monkey.png" alt="Monkey Icon">
+        </div>
+    </section>
+    <!-- ================> Mint section end here <================== -->
+
+
+    <!-- ================>Roadmap section start here <================== -->
+    <section class="roadmap padding-top padding-bottom" id="roadmap">
+        <div class="container">
+            <div class="section-header aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                <div class="section-header__content">
+                    <h2> <span class="color--gradient-y"> Roadmap </span> </h2>
+                    <p>This is our roadmap so far, but this is only the beginning
+                        we want to build our project around our community, so if
+                        you have more ideas we are all ears</p>
+                </div>
+            </div>
+            <div class="roadmap__wrapper">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="roadmap__item aos-animate aos-init" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="roadmap__inner">
+                                <div class="roadmap__thumb">
+                                    <img src="assets/images/roadmap/01.png" alt="Roadmap Icon">
+                                </div>
+                                <div class="roadmap__content">
+                                    <h4>PRE-MINT</h4>
+                                    <p>exessive marketing to increase exposure and demand for Legendary Invader Ape
+                                        
+                                    NFT + Whitelist Giveaways
+                                    
+                                    Exclusive Pre-Sale Discount for Whitelisted Members only
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="roadmap__item aos-animate aos-init" data-aos="fade-left" data-aos-duration="1000"
+                            data-aos-delay="400">
+                            <div class="roadmap__inner">
+                                <div class="roadmap__thumb">
+                                    <img src="assets/images/roadmap/02.png" alt="Roadmap Icon">
+                                </div>
+                                <div class="roadmap__content">
+                                    <h4>MINT</h4>
+                                    <p>
+                                        $15,000 GIVEAWAY<br>
+Mint 3 NFT’s and you will be entered to win $15,000. The winner will be announced after we sell out of our 10000 NFT’s!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="roadmap__item aos-animate aos-init" data-aos="fade-left" data-aos-duration="1000"
+                            data-aos-delay="800">
+                            <div class="roadmap__inner">
+                                <div class="roadmap__thumb">
+                                    <img src="assets/images/roadmap/03.png" alt="Roadmap Icon">
+                                </div>
+                                <div class="roadmap__content">
+                                    <h4>INTELLECTUAL PROPERTY</h4>
+                                    <p>Each holder is given ownership and commercial usage rights of their NFT(s).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="roadmap__item aos-animate aos-init" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="roadmap__inner">
+                                <div class="roadmap__thumb">
+                                    <img src="assets/images/roadmap/04.png" alt="Roadmap Icon">
+                                </div>
+                                <div class="roadmap__content">
+                                    <h4>WELCOME TO THE CLUB</h4>
+                                    <p>When you buy a Legendary Invader Ape, you’re gaining membership access to a club that will increase overtime in not only members but benefits! You’ll be able to join a private discord channel, designed to propose your ideas and make decisions alongside our team about the development of future LIA projects</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="roadmap__item aos-animate aos-init" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="400">
+                            <div class="roadmap__inner">
+                                <div class="roadmap__thumb">
+                                    <img src="assets/images/roadmap/05.png" alt="Roadmap Icon">
+                                </div>
+                                <div class="roadmap__content">
+                                    <h4>COMMUNITY FUND</h4><br>
+                                    <p>We will allocate 20% of royalties<br> to a community fund for marketing expenses,<br> future giveaways, drops, events,<br> Metaverse developments<br> etc… <br>Owners of LIA NFTs will get together <br>and vote on how we should spend this money.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="roadmap__item aos-animate aos-init" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="800">
+                            <div class="roadmap__inner">
+                                <div class="roadmap__thumb">
+                                    <img src="assets/images/roadmap/06.png" alt="Roadmap Icon">
+                                </div>
+                                <div class="roadmap__content">
+                                    <h4>CHARITY</h4><br><br><br>
+                                    <p>We will be making donations from royalties to different organizations in order to help make the world a better place.</p><br><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+<div class="col-lg-4 col-md-6">
+                        <div class="roadmap__item aos-animate aos-init" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="800">
+                            <div class="roadmap__inner">
+                                <div class="roadmap__thumb">
+                                    <img src="assets/images/roadmap/07.png" alt="Roadmap Icon">
+                                </div>
+                                <div class="roadmap__content">
+                                    <h4>METAVERSE</h4>
+                                    <p>The Legendary Invader Ape will be extended to the Sandbox Metaverse, where the founders will buy a 3×3 land once the project is sold out. This would allow us to advertise our L.I.A logo on Sandbox and link to Opensea, which would bring more attention to the project. This land will be our HEADQUARTERS, where all the legendary invader ape owners can meet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+<div class="col-lg-4 col-md-6">
+                        <div class="roadmap__item aos-animate aos-init" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="800">
+                            <div class="roadmap__inner">
+                                <div class="roadmap__thumb">
+                                    <img src="assets/images/roadmap/08.png" alt="Roadmap Icon">
+                                </div>
+                                <div class="roadmap__content">
+                                    <h4>MERCH</h4><br><br><br>
+                                    <p>A clothing line inspired by the Legendary Invader Ape is already in the works, designed by our talented artists. This exclusive line will be available to L.I.A members only.</p><br><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+<div class="col-lg-4 col-md-6">
+                        <div class="roadmap__item aos-animate aos-init" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="800">
+                            <div class="roadmap__inner">
+                                <div class="roadmap__thumb">
+                                    <img src="assets/images/roadmap/09.png" alt="Roadmap Icon">
+                                </div>
+                                <div class="roadmap__content">
+                                    <h4>What's next?</h4><br><br>
+                                    <p>Coin launch. after being sold out of our collection, we will announce our new coin release date.
+WHAT WILL THE FUTURE BRING TO THE Lia?
+A new collection? Creation of LIA token with staking features? Metaverse Developments? We will let the community vote and decide.</p><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================>Roadmap section end here <================== -->
+
+
+    <!-- ================>Team section start here <================== -->
+    <section class="team padding-top padding-bottom bg--fixed" style="background-image: url(assets/images/team/bg.jpg);"
+        id="team">
+        <div class="container">
+            <div class="section-header aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                <div class="section-header__content">
+                    <h2> <span class="color--gradient-y"> MEET </span> </h2>
+                    <h2> <span class="color--gradient-y"> OUR TEAM </span> </h2>
+                    <p>Some teams call themselves a family, but we actually are one! all
+                        designers with a passion for art</p>
+                </div>
+            </div>
+            <div class="team__wrapper">
+                <div
+                    class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-3">
+                    <div class="col">
+                        <div class="team__item" data-aos="flip-right" data-aos-duration="1000">
+                            <div class="team__inner">
+                                <div class="team__thumb">
+                                    <img src="assets/images/team/01.png" alt="team Image">
+                                </div>
+                                <div class="team__content">
+                                    <h5><a href="https://www.instagram.com/yahyachabih/" target="_blank">Yahya Chabih</a></h5>
+                                    <p>Project Lead</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="team__item" data-aos="flip-right" data-aos-duration="1000">
+                            <div class="team__inner">
+                                <div class="team__thumb">
+                                    <img src="assets/images/team/02.png" alt="team Image">
+                                </div>
+                                <div class="team__content">
+                                    <h5><a href="https://www.instagram.com/quentinalexandrea/" target="_blank">Q. aLexandrea</a></h5>
+                                    <p>Marketing Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="team__item" data-aos="flip-right" data-aos-duration="1000">
+                            <div class="team__inner">
+                                <div class="team__thumb">
+                                    <img src="assets/images/team/03.png" alt="team Image">
+                                </div>
+                                <div class="team__content">
+                                    <h5> <a href="https://twitter.com/ZachBladi" target="_blank">ZachBladi</a> </h5>
+                                    <p>The Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="team__item" data-aos="flip-right" data-aos-duration="1000">
+                            <div class="team__inner">
+                                <div class="team__thumb">
+                                    <img src="assets/images/team/04.png" alt="team Image">
+                                </div>
+                                <div class="team__content">
+                                    <h5> <a href="https://twitter.com/angelsclub" target="_blank">S. matta</a> </h5>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="team__item" data-aos="flip-right" data-aos-duration="1000">
+                            <div class="team__inner">
+                                <div class="team__thumb">
+                                    <img src="assets/images/team/05.png" alt="team Image">
+                                </div>
+                                <div class="team__content">
+                                    <h5> <a href="https://twitter.com/angelsclub" target="_blank">Sammlie tom</a> </h5>
+                                    <p>BLOCKCHAIN Dev</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================>Team section end here <================== -->
+
+
+
+    <!-- ================FAQ section start here <================== -->
+    <section id="faq" class="faq padding-top padding-bottom">
+        <div class="container">
+            <div class="faq__wrapper">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="section-header">
+                            <div class="section-header__content text-start">
+                                <h2> <span class="color--gradient-y"> F.A.Q. </span> </h2>
+                                <h2> <span class="color--gradient-y"> Questions </span> </h2>
+                            </div>
+                        </div>
+                        <div class="accordion" id="faqAccordion2">
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <div class="accordion__item" data-aos="fade-up" data-aos-duration="1000">
+                                        <div class="accordion__header" id="faq1">
+                                            <button class="accordion__button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faqBody1"
+                                                aria-expanded="false" aria-controls="faqBody1">
+                                                Q. What is Legendary Invader Ape? <span class="plus-icon"></span>
+                                            </button>
+                                        </div>
+                                        <div id="faqBody1" class="accordion-collapse collapse" aria-labelledby="faq1"
+                                            data-bs-parent="#faqAccordion2">
+                                            <div class="accordion__body">
+                                                Legendary Invader Ape is an NFT collection of 10,000 apes, uniquely generated from over 350 hand drawn traits! Owning a Legendary Invader Ape NFT allows you to take part in the project and be part of the community.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="accordion__item" data-aos="fade-up" data-aos-duration="1100">
+                                        <div class="accordion__header" id="faq2">
+                                            <button class="accordion__button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#faqBody2" aria-expanded="true"
+                                                aria-controls="faqBody2">
+                                                Q. What blockchain is it on? <span class="plus-icon"></span>
+                                            </button>
+                                        </div>
+                                        <div id="faqBody2" class="accordion-collapse collapse show"
+                                            aria-labelledby="faq2" data-bs-parent="#faqAccordion2">
+                                            <div class="accordion__body">
+                                                The ERC-721 token is on the Ethereum Blockchain and file hosting is IPFS.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="accordion__item" data-aos="fade-up" data-aos-duration="1200">
+                                        <div class="accordion__header" id="faq3">
+                                            <button class="accordion__button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faqBody3"
+                                                aria-expanded="false" aria-controls="faqBody3">
+                                                Q. What can you do with your LIA?<span class="plus-icon"></span>
+                                            </button>
+                                        </div>
+                                        <div id="faqBody3" class="accordion-collapse collapse" aria-labelledby="faq3"
+                                            data-bs-parent="#faqAccordion2">
+                                            <div class="accordion__body">
+                                                Anything you want. Each holder is given ownership and commercial usage rights of their NFT.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="accordion__item" data-aos="fade-up" data-aos-duration="1300">
+                                        <div class="accordion__header" id="faq4">
+                                            <button class="accordion__button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faqBody4"
+                                                aria-expanded="false" aria-controls="faqBody4">
+                                                Q. When is the official launch?<span class="plus-icon"></span>
+                                            </button>
+                                        </div>
+                                        <div id="faqBody4" class="accordion-collapse collapse" aria-labelledby="faq4"
+                                            data-bs-parent="#faqAccordion2">
+                                            <div class="accordion__body">
+                                             Mint Date: June 15 <br>
+
+Mint Time Presale: 1:00PM EST<br>
+Mint Time Public: 4:00PM EST   
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="accordion__item" data-aos="fade-up" data-aos-duration="1400">
+                                        <div class="accordion__header" id="faq5">
+                                            <button class="accordion__button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faqBody5"
+                                                aria-expanded="false" aria-controls="faqBody5">
+                                                Q. Is there a whitelist?<span class="plus-icon"></span>
+                                            </button>
+                                        </div>
+                                        <div id="faqBody5" class="accordion-collapse collapse" aria-labelledby="faq5"
+                                            data-bs-parent="#faqAccordion2">
+                                            <div class="accordion__body">
+                                               We value people who genuinely engage to help others in our community. Becoming one of these people could grant you a whitelist spot to mint our project. We’ll also have giveaways to earn a whitelist spot. Visit our Discord server to learn more about how you can get Whitelisted.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="accordion__item" data-aos="fade-up" data-aos-duration="1500">
+                                        <div class="accordion__header" id="faq6">
+                                            <button class="accordion__button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faqBody6"
+                                                aria-expanded="false" aria-controls="faqBody6">
+                                                Q. How can I buy a LIA NFT?<span class="plus-icon"></span>
+                                            </button>
+                                        </div>
+                                        <div id="faqBody6" class="accordion-collapse collapse" aria-labelledby="faq6"
+                                            data-bs-parent="#faqAccordion2">
+                                            <div class="accordion__body">
+                                                You will be able to purchase a Legendary Invader Ape NFT directly on this website with Ethereum (ETH) by using the MetaMask extension.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                 <div class="col-12">
+                               <div class="accordion__item" data-aos="fade-up" data-aos-duration="1500">
+                                        <div class="accordion__header" id="faq7">
+                                            <button class="accordion__button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faqBody7"
+                                                aria-expanded="false" aria-controls="faqBody7">
+                                                Q. What does “Mint” mean?<span class="plus-icon"></span>
+                                            </button>
+                                        </div>
+                                        <div id="faqBody7" class="accordion-collapse collapse" aria-labelledby="faq7"
+                                            data-bs-parent="#faqAccordion2">
+                                            <div class="accordion__body">
+                                               NFT Minting is the process by which your digital art or digital content becomes a part of the Ethereum blockchain.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               
+
+                                <div class="col-12">
+                                    <div class="accordion__item" data-aos="fade-up" data-aos-duration="1500">
+                                        <div class="accordion__header" id="faq8">
+                                            <button class="accordion__button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faqBody8"
+                                                aria-expanded="false" aria-controls="faqBody8">
+                                                Q. What is the mint price of a LIA NFT?<span class="plus-icon"></span>
+                                            </button>
+                                        </div>
+                                        <div id="faqBody8" class="accordion-collapse collapse" aria-labelledby="faq8"
+                                            data-bs-parent="#faqAccordion2">
+                                            <div class="accordion__body">
+                                             privatesale "befor marketing" <br>
+presale:      0.07 ETH <br>
+Public:        0.08 ETH   
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-12">
+                                    <div class="accordion__item" data-aos="fade-up" data-aos-duration="1500">
+                                        <div class="accordion__header" id="faq9">
+                                            <button class="accordion__button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faqBody9"
+                                                aria-expanded="false" aria-controls="faqBody9">
+                                                Q. When is the reveal?<span class="plus-icon"></span>
+                                            </button>
+                                        </div>
+                                        <div id="faqBody9" class="accordion-collapse collapse" aria-labelledby="faq9"
+                                            data-bs-parent="#faqAccordion2">
+                                            <div class="accordion__body">
+48 hours after sell out  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                   <div class="col-12">
+                                    <div class="accordion__item" data-aos="fade-up" data-aos-duration="1500">
+                                        <div class="accordion__header" id="faq10">
+                                            <button class="accordion__button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faqBody10"
+                                                aria-expanded="false" aria-controls="faqBody10">
+                                                Q. Can I take a sneak peek at my NFTs?<span class="plus-icon"></span>
+                                            </button>
+                                        </div>
+                                        <div id="faqBody10" class="accordion-collapse collapse" aria-labelledby="faq10"
+                                            data-bs-parent="#faqAccordion2">
+                                            <div class="accordion__body">
+As soon as you mint one and they’re revealed, you can admire the latest addition to your art collection on OpenSea. Until that happens, join our Discord’s #sneak-peeks channel where you can take a look at our amazing art.  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                                                   <div class="col-12">
+                                    <div class="accordion__item" data-aos="fade-up" data-aos-duration="1500">
+                                        <div class="accordion__header" id="faq11">
+                                            <button class="accordion__button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faqBody11"
+                                                aria-expanded="false" aria-controls="faqBody11">
+                                                Q. How do I contact the team?
+<span class="plus-icon"></span>
+                                            </button>
+                                        </div>
+                                        <div id="faqBody11" class="accordion-collapse collapse" aria-labelledby="faq11"
+                                            data-bs-parent="#faqAccordion2">
+                                            <div class="accordion__body">
+Join our Discord, and feel free to ask any questions you have. All essential information will be announced on Discord. 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="faq__thumb text-center aos-init aos-animate" data-aos-duration="2000"
+                            data-aos="zoom-in-right">
+                            <img src="assets/images/faq/01.png" alt="FAQ Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================FAQ section end here <================== -->
+
+
+
+    <!-- ================>Community section start here <================== -->
+    <section class="community padding-top padding-bottom" style="background-image:url(assets/images/community/bg.jpg)">
+        <div class="container">
+            <div class="comminity__wrapper">
+                <div class="community__content text-center" data-aos="zoom-in" data-aos-duration="1000">
+                    <h2> <span class="color--gradient-y"> Join The </span> </h2>
+                    <h2> <span class="color--gradient-y"> ANTI GIRAFFE GIRAFFE CLUB </span> </h2>
+                    <p>Join a genuine community</p>
+                    <a target="_blank" href="https://discord.com/invite/discordserver" class="default-btn"><span>Join Our Discord</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================>Community section end here <================== -->
+
+
+
+
+    <!-- ================> Footer section start here <================== -->
+    <footer class="footer">
+        <div class="footer__wrapper padding-top padding-bottom aos-animate aos-ini" data-aos="fade-up"
+            data-aos-duration="1000">
+            <div class="container">
+                <div class="footer__content text-center t">
+                    <h2 class="color--gradient-y">Follow Us!</h2>
+                    <p>If two Heads Area Better Than One, 10000 Heads Should Be Way Better! Join Our Community.</p>
+                    <ul class="social justify-content-center">
+                        <li class="social__item">
+                            <a target="_blank" href="https://discord.gg/discordserver" class="social__link"><img src="assets/images/social/discord.png"
+                                    alt="Discord"></a>
+                        </li>
+                        <li class="social__item">
+                            <a target="_blank" href="https://twitter.com/angelsclub" class="social__link"><img src="assets/images/social/twitter.png"
+                                    alt="Twitter"></a>
+                        </li>
+                       
+                       
+                        <li class="social__item">
+                            <a target="_blank" href="https://www.youtube.com/channel/angels-club" class="social__link"><img src="assets/images/social/youtube.png"
+                                    alt="Youtube"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="text-center py-4">
+                    <p class=" mb-0">© 2022 ANTI GIRAFFE GIRAFFE CLUB | All Rights Reserved  </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ================> Footer section end here <================== -->
+
+
+
+
+    <!-- vendor plugins -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+
+
+
+</body>
+
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh-oh'},{'server':'p3plzcpnl489499'},{'id':'8711596'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>
